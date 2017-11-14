@@ -1,3 +1,7 @@
+
+# Starting point... 
+Started out with the following, building out to new purposes... 
+
 # ReduxSimpleStarter
 
 Interested in learning [Redux](https://www.udemy.com/react-redux/)?
