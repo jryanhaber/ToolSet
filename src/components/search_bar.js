@@ -13,8 +13,9 @@ class SearchBar extends React.Component {
         <h4 className="list-group-item-heading">Search Here</h4>
         <p className="list-group-item-heading">Type something here to search</p>
         <input
+          value={this.state.term}
           className="form-control"
-          onChange={event => console.log(event.target.value)}
+          onChange={event => this.setState({ term: event.target.value })}
         />
       </div>
     );
